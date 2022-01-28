@@ -1,6 +1,6 @@
 {
   "name": "universocraft-stats",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Get Stats from stats.universocraft.com (Non Official)",
   "main": "src/index.js",
   "scripts": {
