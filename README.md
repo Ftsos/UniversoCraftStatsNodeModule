@@ -23,7 +23,9 @@ npm install universocraft-stats
             console.log(err);
         });
 ```
-# Liscence
+# Licence
+
+[MIT](https://github.com/Ftsos/UniversoCraftStatsApi/blob/master/LICENSE)
 
 # Contributing
 
