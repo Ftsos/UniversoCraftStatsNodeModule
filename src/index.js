@@ -92,16 +92,15 @@ var getUserStats = async (username) => {
     
 }
 
-getUserStats('ftsos').then(data => {
-    /*data.forEach(stat => {
-        console.log(stat.name);
-        stat.data.forEach(stat => {
-            console.log(stat.name, stat.value);
-        })
-    })*/
-    console.log(data);
-}).catch(err => console.log(err));
+var userHasPlayed = async (username) => {
+    var result = await getUserStats(username);
+    if(result.length == 0) {
+        return false;
+    }
+    return true;
+}
 
 module.exports = {
-    getUserStats
+    getUserStats,
+    userHasPlayed
 }
